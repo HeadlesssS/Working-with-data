@@ -35,3 +35,13 @@ This report explores a real-world dataset from NYC 311, the official non-emergen
 The purpose of this analysis is to conduct a structured analysis of the dataset through three main phases: data understanding, data preparation, and data analysis. Initially, we examine the framework, content and quality of the datasets to detect relevant fields and defects in the dataset. In the second phase, we clean and prepare the operational data for analysis. In the final phase, we compare the datasets statistically with the goal of obtaining trends, patterns, and issues of concern related to how the city operates any of its services. 
 
 This analysis helps understand the scope, scale, and nature of urban complaints in NYC, and provides insights into how efficiently different types of issues are resolved across boroughs and agencies. 
+
+### Star Bot
+StarBot is a simple natural language query system which allows user to retrieve info about star info on the subset of the GAIA dataset using deep learning models(GRU,MLP,BiLSTM) to understand user queries and retrieve astronomical data from the GAIA star catalog.
+
+Key Features:
+Query stars by name using natural language
+Get star properties: visual magnitude (Vmag), color (B-V), spectral type, parallax
+Intent classification to determine what information user is asking for
+
+Tech Stack: Streamlit, TensorFlow/Keras, scikit-learn, Pandas
